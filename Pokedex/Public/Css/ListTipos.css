@@ -1,0 +1,27 @@
+.tipos-list {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tipos-list p {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+.tipos-list .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.tipos-list .btn {
+    font-size: 0.9rem;
+}
+
+.alert-warning {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<h1 class="text-center mb-4">Editar Pokémon</h1>
+<div class="container">
+    <form action="/Pokemones/EditPokemon/{{pokemon.id}}" method="POST">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" value="{{pokemon.nombre}}" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="imagen" class="form-label">Imagen (URL):</label>
+            <input type="text" class="form-control" id="imagen" name="imagen" value="{{pokemon.imagen}}" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="tipoId" class="form-label">Tipo:</label>
+            <select name="tipoId" class="form-select" id="tipoId">
+                {{#each tipos}}
+                    <option value="{{id}}" {{#if (eq id ../pokemon.tipoId)}}selected{{/if}}>{{nombre}}</option>
+                {{/each}}
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="regionId" class="form-label">Región:</label>
+            <select name="regionId" class="form-select" id="regionId">
+                {{#each regiones}}
+                    <option value="{{id}}" {{#if (eq id ../pokemon.regionId)}}selected{{/if}}>{{nombre}}</option>
+                {{/each}}
+            </select>
+        </div>
+
+        <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary me-3">Actualizar</button>
+                <a href="/Pokemones" class="btn btn-secondary me-3">Volver</a> <!-- Botón Volver -->
+                <a href="/Pokemones/ConfirmDeletePokemon/{{pokemon.id}}" class="btn btn-danger">Eliminar</a>
+
+            </form>
+
+            <!-- Botón Eliminar -->
+           {{!--  <form action="/Pokemones/ConfirmDeletePokemon/{{id}}" style="display:inline;">
+                <button type="submit" class="btn btn-danger  me-3">Eliminar</button>
+            </form> --}}
+        </div>
+    </form>
+</div>

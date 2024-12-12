@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Breaking Bad",
+    "genero": "Drama",
+    "descripcion": "Un profesor de química con cáncer terminal se convierte en un fabricante de metanfetaminas para asegurar el futuro financiero de su familia.",
+    "imagenPortada": "https://es.web.img3.acsta.net/pictures/18/04/04/22/52/3191575.jpg",
+    "videoUrl": "https://youtu.be/HhesaQXLuRY?si=fDyxC51Ci6OFf4Ky",
+    "id": 1
+  },
+  {
+    "title": "Stranger Things 2",
+    "genero": "Ciencia ficción",
+    "imagenPortada": "https://m.media-amazon.com/images/I/81qv3rCbPwL.jpg",
+    "descripcion": "Un grupo de niños en la década de 1980 se enfrenta a fenómenos sobrenaturales y criaturas de una dimensión alternativa, mientras buscan a su amigo desaparecido en el pueblo ficticio de Hawkins, Indiana.",
+    "videoUrl": "https://youtu.be/b9EkMc79ZSU?si=NSnJv1zP1g3N5Q5w",
+    "id": 2
+  },
+  {
+    "title": "Rapido y Furioso 8",
+    "genero": "Acción",
+    "imagenPortada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMP6svQRt3NXE_WcojY7ZgmawSbkP-N_adHg&s",
+    "descripcion": "es la octava entrega de la franquicia de acción y carreras. La historia sigue a Dominic Toretto (Vin Diesel) y su familia mientras enfrentan una nueva amenaza cuando Dom es seducido por una misteriosa hacker llamada Cipher (Charlize Theron).",
+    "videoUrl": "https://youtu.be/uisBaTkQAEs?si=UHYvenKbLdFtC69W",
+    "id": 3
+  },
+  {
+    "title": "Game of Thrones",
+    "genero": "Acción",
+    "imagenPortada": "https://m.media-amazon.com/images/M/MV5BYzE5MjM1OTUtOGZiMC00NmE0LWI2ZDUtYTU3ZWJiNTdmOWJmXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "descripcion": "Un drama histórico que narra la vida de la Reina Isabel II y los eventos políticos y personales que han moldeado la segunda mitad del siglo XX en Gran Bretaña. La serie explora su ascenso al trono, sus desafíos familiares y la evolución de la monarquía.",
+    "videoUrl": "https://youtu.be/KPLWWIOCOOQ?si=43IgCU4T-AykNL_1",
+    "id": 4
+  },
+  {
+    "title": "The Mandalorian",
+    "genero": "Ciencia ficción",
+    "imagenPortada": "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+    "descripcion": "Un cazarrecompensas solitario navega por los confines de la galaxia lejos de la Nueva República, enfrentándose a enemigos y alianzas inesperadas mientras protege a un misterioso niño que parece ser de la misma especie que Yoda.",
+    "videoUrl": "https://youtu.be/aOC8E8z_ifw?si=MEJcGvNW08MC7Wcx",
+    "id": 5
+  },
+  {
+    "title": "Sherlock",
+    "genero": "Misterio",
+    "descripcion": "En el Londres contemporáneo, Sherlock Holmes, un brillante y excéntrico detective, y su fiel compañero, el Dr. John Watson, resuelven crímenes complejos, enfrentándose a villanos y misterios intrigantes, siempre un paso adelante de sus enemigos.",
+    "imagenPortada": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_.jpg",
+    "videoUrl": "https://youtu.be/xK7S9mrFWL4?si=qzM4JpkEq0mXAuav",
+    "id": 6
+  }
+]

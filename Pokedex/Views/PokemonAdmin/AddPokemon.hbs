@@ -1,0 +1,28 @@
+<main class="container">
+    <link rel="stylesheet" href="/Css/AddPokemon.css">  
+    <h2>Agregar Pokemon</h2>
+    <form action="/Pokemones/AddPokemon" method="POST" class="pokemon-form">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label>Imagen (URL):</label>
+        <input type="text" name="imagen" required>
+
+        <label>Tipo:</label>
+        <select name="tipoId">
+            {{#each tipos}}
+            <option value="{{id}}">{{nombre}}</option>
+            {{/each}}
+        </select>
+
+        <label>Región:</label>
+        <select name="regionId">
+            {{#each regiones}}
+            <option value="{{id}}">{{nombre}}</option>
+            {{/each}}
+        </select>
+
+        <button type="submit">Agregar</button>
+        <button type="button" onclick="window.location.href='/Pokemones'" class="volver-btn">Volver</button>
+    </form>
+</main>

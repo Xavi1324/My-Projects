@@ -1,0 +1,23 @@
+[
+  {
+    "originalNombre": "Drama2",
+    "nombre": "Drama",
+    "imagen": "https://movieswithaplottwist.com/wp-content/uploads/2021/10/adrift-movie-poster.jpg"
+  },
+  {
+    "nombre": "Ciencia ficción",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_.jpg"
+  },
+  {
+    "nombre": "Acción",
+    "imagen": "https://i.redd.it/0fa1jttui2b31.jpg"
+  },
+  {
+    "nombre": "Thriller",
+    "imagen": "https://m.media-amazon.com/images/M/MV5BOTIxNjg1YTYtZjExNi00YWIwLTlmNGMtNjdkODc5NTc4ZmYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "nombre": "Misterio",
+    "imagen": "https://www.bizcochito.es/Films/Poster/tt26750774.webp"
+  }
+]

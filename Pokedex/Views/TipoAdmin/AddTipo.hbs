@@ -1,0 +1,17 @@
+<div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h1 class="text-center mt-4">Agregar Tipo</h1>
+                <form action="/Tipos/Add" method="POST" class="border p-4 rounded shadow-sm bg-light">
+                    <div class="form-group m-1 text-dark">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" class="form-control" required>
+                    </div>
+                    <div class="form-group d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success mx-2">Guardar</button>
+                        <button type="button" onclick="window.history.back()" class="btn btn-secondary mx-2">Volver</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
