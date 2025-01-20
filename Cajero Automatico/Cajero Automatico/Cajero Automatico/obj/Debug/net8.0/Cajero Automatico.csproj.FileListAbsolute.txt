@@ -1,0 +1,35 @@
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\appsettings.Development.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\appsettings.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\Cajero Automatico.staticwebassets.runtime.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\Cajero Automatico.staticwebassets.endpoints.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\Cajero Automatico.exe
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\Cajero Automatico.deps.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\Cajero Automatico.runtimeconfig.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\Cajero Automatico.dll
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\bin\Debug\net8.0\Cajero Automatico.pdb
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.AssemblyInfoInputs.cache
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.AssemblyInfo.cs
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.csproj.CoreCompileInputs.cache
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.MvcApplicationPartsAssemblyInfo.cache
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.RazorAssemblyInfo.cache
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.RazorAssemblyInfo.cs
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.sourcelink.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\scopedcss\bundle\Cajero Automatico.styles.css
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\scopedcss\projectbundle\Cajero Automatico.bundle.scp.css
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets.build.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets.development.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets\msbuild.Cajero Automatico.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets\msbuild.Cajero Automatico.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets\msbuild.build.Cajero Automatico.props
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Cajero Automatico.props
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Cajero Automatico.props
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.dll
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\refint\Cajero Automatico.dll
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.pdb
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\Cajero Automatico.genruntimeconfig.cache
+C:\Proyectos\My-Projects\Cajero Automatico\Cajero Automatico\Cajero Automatico\obj\Debug\net8.0\ref\Cajero Automatico.dll
