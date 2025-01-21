@@ -18,12 +18,10 @@ namespace Cajero_Automatico.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        
         public IActionResult Retiro()
         {
+
             return View();
         }
 

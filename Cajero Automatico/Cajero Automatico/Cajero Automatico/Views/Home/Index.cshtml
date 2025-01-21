@@ -2,12 +2,20 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Cajero Automatico</h1>
-    <ul class="list-group">
-        <button type="button" class="btn">Retirar Dinero</button>
-        <button type="button" class="btn">Deposito </button>
-        <button type="button" class="btn">Transferencias </button>
-        <button type="button" class="btn">Idioma </button>
-    </ul>
+<div class="container cajero-container">
+    <div class="text-center">
+        <h1>Cajero Automático</h1>
+        <h3>Seleccione una opción</h3>
+
+        <div class="menu mt-4">
+            <ul class="list-group">              
+                <!-- Opción para retirar dinero -->
+                <li class="list-group-item">
+                    <a asp-action="Retiro" class="btn btn-cajero btn-primary">
+                        Retirar Dinero
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>

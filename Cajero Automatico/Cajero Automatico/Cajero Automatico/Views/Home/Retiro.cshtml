@@ -1,1 +1,38 @@
-﻿
+﻿@{
+    ViewData["Title"] = "Retiro";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Retiro</h1>
+
+    <h3>Seleccione el modo de retiro:</h3>
+
+    <!-- Formulario para elegir el modo de retiro -->
+    <form method="post" asp-controller="Home" asp-action="ProcesarRetiro">
+        <div class="mb-3">
+            <label for="modoDispensacion" class="form-label">Modo de Dispensación</label>
+            <select id="modoDispensacion" name="modoDispensacion" class="form-select" required>
+                <option value="200-1000">200 - 1000</option>
+                <option value="100-500">100 - 500</option>
+                <option value="Eficiente" selected>Eficiente</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="monto" class="form-label">Monto a Retirar</label>
+            <input type="number" class="form-control" id="monto" name="monto" min="100" required />
+            <div class="form-text">El monto debe ser un número entero múltiplo de 100.</div>
+        </div>
+
+        <button type="submit" class="btn btn-cajero btn-success">Retirar</button>
+    </form>
+
+    <!-- Mostrar el resultado del retiro -->
+    @if (ViewData["Resultado"] != null)
+    {
+        <div class="mt-4">
+            <h4>Resultado del Retiro</h4>
+            <p>@ViewData["Resultado"]</p>
+        </div>
+    }
+</div>
