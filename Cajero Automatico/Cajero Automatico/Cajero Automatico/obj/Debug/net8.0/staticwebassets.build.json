@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RaT/AdoHRuCLPQSoOPr1DH6RYFPGT0sBobOuvsRJ1BE=",
+  "Hash": "BiTT151Bc9bo7ng162Dlorxx0uTeYYfBK0OTJA8XLZg=",
   "Source": "Cajero Automatico",
   "BasePath": "_content/Cajero Automatico",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\wwwroot\\css\\Style.css",
+      "SourceId": "Cajero Automatico",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\wwwroot\\",
+      "BasePath": "_content/Cajero Automatico",
+      "RelativePath": "css/Style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hg6q0clzzt",
+      "Integrity": "z5yXatRzhFLm+fTM/ETkqUb3lnhRzKRDgjS4C+k49Xo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
       "Identity": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\wwwroot\\favicon.ico",
@@ -1563,6 +1584,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.css",
+      "AssetFile": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\wwwroot\\css\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z5yXatRzhFLm+fTM/ETkqUb3lnhRzKRDgjS4C+k49Xo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 04:23:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z5yXatRzhFLm+fTM/ETkqUb3lnhRzKRDgjS4C+k49Xo="
+        }
+      ]
+    },
+    {
+      "Route": "css/Style.hg6q0clzzt.css",
+      "AssetFile": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\wwwroot\\css\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z5yXatRzhFLm+fTM/ETkqUb3lnhRzKRDgjS4C+k49Xo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 04:23:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hg6q0clzzt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z5yXatRzhFLm+fTM/ETkqUb3lnhRzKRDgjS4C+k49Xo="
         }
       ]
     },
