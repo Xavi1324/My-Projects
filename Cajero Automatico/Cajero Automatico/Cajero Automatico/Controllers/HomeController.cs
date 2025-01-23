@@ -13,13 +13,11 @@ namespace Cajero_Automatico.Controllers
             _logger = logger;
         }
 
-        // Vista principal del cajero
         public IActionResult Index()
         {
             return View();
         }
 
-        // Vista para el retiro de dinero
         public IActionResult Retiro()
         {
             // Recupera el modo de dispensación previamente seleccionado, o usa el "Eficiente" por defecto
@@ -31,7 +29,6 @@ namespace Cajero_Automatico.Controllers
         [HttpPost]
         public IActionResult ProcesarRetiro(string modoDispensacion, int monto)
         {
-            // Validar que el monto sea múltiplo de 100
             if (monto % 100 != 0)
             {
                 ViewData["Resultado"] = "El monto debe ser un número múltiplo de 100.";
@@ -74,7 +71,6 @@ namespace Cajero_Automatico.Controllers
                 }
             }
 
-            // Validar si el monto no pudo ser dispensado
             if (monto > 0)
             {
                 return $"El monto no puede ser dispensado con el modo seleccionado ({modo}).";
