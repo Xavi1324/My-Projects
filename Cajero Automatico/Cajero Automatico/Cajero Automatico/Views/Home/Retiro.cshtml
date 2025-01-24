@@ -7,7 +7,6 @@
 
     <h3>Seleccione el modo de retiro:</h3>
 
-    <!-- Formulario para elegir el modo de retiro -->
     <form method="post" asp-controller="Home" asp-action="ProcesarRetiro">
         <div class="mb-3">
             <label for="modoDispensacion" class="form-label">Modo de Dispensación</label>
@@ -27,7 +26,7 @@
         <button type="submit" class="btn btn-cajero btn-success">Retirar</button>
     </form>
 
-    <!-- Mostrar el resultado del retiro -->
+    
     @if (ViewData["Resultado"] != null)
     {
         <div class="mt-4">
@@ -35,4 +34,17 @@
             <p>@ViewData["Resultado"]</p>
         </div>
     }
+
+    
+    <script>
+        
+        const modoActual = "@ViewData["ModoActual"]";
+
+        document.querySelectorAll("#modoDispensacion option").forEach(option => {
+            if (option.value === modoActual) {
+                option.selected = true;
+            }
+        });
+    </script>
+
 </div>

@@ -21,9 +21,12 @@ namespace Cajero_Automatico.Controllers
         public IActionResult Retiro()
         {
             // Recupera el modo de dispensación previamente seleccionado, o usa el "Eficiente" por defecto
-            ViewData["ModoActual"] = HttpContext.Session.GetString("ModoDispensacion") ?? "Eficiente";
+            var modoActual = HttpContext.Session.GetString("ModoDispensacion") ?? "Eficiente";
+            // Pasa las opciones y el modo actual a la vista a través de ViewData
+            ViewData["ModoActual"] = modoActual;
+            ViewData["Modos"] = new[] { "200-1000", "100-500", "Eficiente" };
             return View();
-        }
+        }  
 
         // Procesar el retiro de dinero
         [HttpPost]
