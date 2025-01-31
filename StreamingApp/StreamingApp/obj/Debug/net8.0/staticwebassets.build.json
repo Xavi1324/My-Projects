@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FYWiVvTAgZreFBvvYOCtLnkvql9avB2/SPomcdMkokk=",
+  "Hash": "/DyTOQ+ovqyeifiD4zewSjWNjLpqbpKx64qjO4P/IgY=",
   "Source": "StreamingApp",
   "BasePath": "_content/StreamingApp",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6kls1iwrj3",
-      "Integrity": "JkUP3rLhoFAkpZbrxxSgdQMlYyEyn2YZL+AEZ/DBWuA=",
+      "Fingerprint": "t42pgo6q60",
+      "Integrity": "89jxlIFD39vWBZffyFHb0DD5vpd5bigNv601u8YRIF4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Styles.css"
@@ -1527,51 +1527,6 @@
       ]
     },
     {
-      "Route": "css/Styles.6kls1iwrj3.css",
-      "AssetFile": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\Styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1614"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JkUP3rLhoFAkpZbrxxSgdQMlYyEyn2YZL+AEZ/DBWuA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6kls1iwrj3"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JkUP3rLhoFAkpZbrxxSgdQMlYyEyn2YZL+AEZ/DBWuA="
-        }
-      ]
-    },
-    {
       "Route": "css/Styles.css",
       "AssetFile": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\Styles.css",
       "Selectors": [],
@@ -1582,7 +1537,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1614"
+          "Value": "1621"
         },
         {
           "Name": "Content-Type",
@@ -1590,11 +1545,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JkUP3rLhoFAkpZbrxxSgdQMlYyEyn2YZL+AEZ/DBWuA=\""
+          "Value": "\"89jxlIFD39vWBZffyFHb0DD5vpd5bigNv601u8YRIF4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:56 GMT"
+          "Value": "Fri, 31 Jan 2025 00:30:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1604,7 +1559,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JkUP3rLhoFAkpZbrxxSgdQMlYyEyn2YZL+AEZ/DBWuA="
+          "Value": "sha256-89jxlIFD39vWBZffyFHb0DD5vpd5bigNv601u8YRIF4="
+        }
+      ]
+    },
+    {
+      "Route": "css/Styles.t42pgo6q60.css",
+      "AssetFile": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\Styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1621"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"89jxlIFD39vWBZffyFHb0DD5vpd5bigNv601u8YRIF4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 00:30:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t42pgo6q60"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-89jxlIFD39vWBZffyFHb0DD5vpd5bigNv601u8YRIF4="
         }
       ]
     },

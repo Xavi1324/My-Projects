@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    background-color: #343a40; /* Color de la barra de navegación */
+    background-color: #343a40; /* Color de la barra de navegación #343a40*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para el efecto 3D */
     border-radius: 0.5rem; /* Bordes redondeados */
 }
