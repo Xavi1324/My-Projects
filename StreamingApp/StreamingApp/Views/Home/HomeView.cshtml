@@ -1,5 +1,78 @@
-﻿@{
-    ViewData["Title"] = "StreamingApp";
+﻿@* @model List<Aplication.ViewModels.Serie.SerieViewModel>
+@{
+    ViewData["Title"] = "Home";
 }
 
+<link rel="stylesheet" href="/Css/HomeView.css">
 
+<div class="container-fluid py-4">
+    <div class="row mb-100">
+        <div class="col-md-6">
+            <!-- Formulario de búsqueda -->
+            <form action="/Home/Search" method="POST" class="d-flex gap-2">
+                <input type="text" name="title" class="form-control" placeholder="Buscar series..." value="@Model.SearchTitle">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <!-- Formulario para filtrar por productora -->
+            <form action="/Home/FilterByProductora" method="POST" class="d-flex gap-2">
+                <select name="productora" class="form-control" required>
+                    <option value="" disabled>@(!string.IsNullOrEmpty(Model.SelectedProductora) ? Model.SelectedProductora : "Seleccione una productora")</option>
+                    @foreach (var productora in Model.Productoras)
+                    {
+                        <option value="@productora" @(productora == Model.SelectedProductora ? "selected" : "")>@productora</option>
+                    }
+                </select>
+                <button type="submit" class="btn btn-secondary">Filtrar</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <!-- Formulario para filtrar por género -->
+            <form action="/Home/FilterByGenero" method="POST" class="d-flex gap-2">
+                <select name="generoNombre" class="form-control" required>
+                    <option value="" disabled>@(!string.IsNullOrEmpty(Model.SelectedGenero) ? Model.SelectedGenero : "Seleccione un género")</option>
+                    @foreach (var genero in Model.Generos)
+                    {
+                        <option value="@genero" @(genero == Model.SelectedGenero ? "selected" : "")>@genero</option>
+                    }
+                </select>
+                <button type="submit" class="btn btn-secondary">Filtrar</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <!-- Formulario para ordenar series -->
+            <form action="/Home/Sort" method="POST" class="d-flex gap-2">
+                <select name="sortOption" class="form-control" required>
+                    <option value="name" @(Model.SortOption == "name" ? "selected" : "")>Nombre</option>
+                    <option value="productora" @(Model.SortOption == "productora" ? "selected" : "")>Productora</option>
+                    <option value="genero" @(Model.SortOption == "genero" ? "selected" : "")>Género</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Ordenar</button>
+            </form>
+        </div>
+    </div>
+
+    <h2 class="series-title">Series</h2>
+    <div class="series-grid">
+        @foreach (var serie in Model.Series)
+        {
+            <div class="serie-card" onclick="window.location.href='/Series/Detail/@item.Id'">
+                <div class="serie-image">
+                    <img src="@item.PortadaUrl" alt="@item.Titulo">
+                    <div class="serie-overlay">
+                        <h3 class="serie-title">@item.Titulo</h3>
+                    </div>
+                </div>
+            </div>
+        }
+        @if (Model.Series.Count == 0)
+        {
+            <div class="alert">No hay series disponibles</div>
+        }
+    </div>
+</div>
+ *@

@@ -1,0 +1,16 @@
+C:\Proyectos\My-Projects\StreamingApp\Aplication\bin\Debug\net8.0\Aplication.deps.json
+C:\Proyectos\My-Projects\StreamingApp\Aplication\bin\Debug\net8.0\Aplication.dll
+C:\Proyectos\My-Projects\StreamingApp\Aplication\bin\Debug\net8.0\Aplication.pdb
+C:\Proyectos\My-Projects\StreamingApp\Aplication\bin\Debug\net8.0\DataBase.dll
+C:\Proyectos\My-Projects\StreamingApp\Aplication\bin\Debug\net8.0\DataBase.pdb
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.csproj.AssemblyReference.cache
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.AssemblyInfoInputs.cache
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.AssemblyInfo.cs
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.csproj.CoreCompileInputs.cache
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.sourcelink.json
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.csproj.Up2Date
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.dll
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\refint\Aplication.dll
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\Aplication.pdb
+C:\Proyectos\My-Projects\StreamingApp\Aplication\obj\Debug\net8.0\ref\Aplication.dll

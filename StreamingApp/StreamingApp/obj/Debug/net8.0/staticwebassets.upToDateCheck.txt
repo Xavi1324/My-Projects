@@ -1,4 +1,5 @@
 wwwroot\css\HomeView.css
+wwwroot\css\SeriesView.css
 wwwroot\css\site.css
 wwwroot\css\Styles.css
 wwwroot\favicon.ico

@@ -118,7 +118,9 @@ C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\runtimes\win
 C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\Aplication.dll
 C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\DataBase.dll
+C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\Aplication.pdb
 C:\Proyectos\My-Projects\StreamingApp\StreamingApp\bin\Debug\net8.0\DataBase.pdb
 C:\Proyectos\My-Projects\StreamingApp\StreamingApp\obj\Debug\net8.0\StreamingApp.csproj.AssemblyReference.cache
 C:\Proyectos\My-Projects\StreamingApp\StreamingApp\obj\Debug\net8.0\StreamingApp.GeneratedMSBuildEditorConfig.editorconfig

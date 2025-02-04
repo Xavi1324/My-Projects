@@ -1495,6 +1495,19 @@
           }
         }
       },
+      "Aplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DataBase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Aplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Aplication.dll": {}
+        }
+      },
       "DataBase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4012,6 +4025,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Aplication/1.0.0": {
+      "type": "project",
+      "path": "../Aplication/Aplication.csproj",
+      "msbuildProject": "../Aplication/Aplication.csproj"
+    },
     "DataBase/1.0.0": {
       "type": "project",
       "path": "../DataBase/DataBase.csproj",
@@ -4020,6 +4038,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Aplication >= 1.0.0",
       "DataBase >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.12"
@@ -4058,6 +4077,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Proyectos\\My-Projects\\StreamingApp\\Aplication\\Aplication.csproj": {
+              "projectPath": "C:\\Proyectos\\My-Projects\\StreamingApp\\Aplication\\Aplication.csproj"
+            },
             "C:\\Proyectos\\My-Projects\\StreamingApp\\DataBase\\DataBase.csproj": {
               "projectPath": "C:\\Proyectos\\My-Projects\\StreamingApp\\DataBase\\DataBase.csproj"
             }

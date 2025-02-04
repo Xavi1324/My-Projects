@@ -1,23 +1,25 @@
-using System.Diagnostics;
+using Aplication.Services;
+using DataBase.Contexts;
 using Microsoft.AspNetCore.Mvc;
-using StreamingApp.Models;
 
 namespace StreamingApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult HomeView()
-        {
-            return View();
-        }
-
         
+        private readonly SerieService _serieService;
+
+        public HomeController(StreamingAppContext dbContext)
+        {
+            _serieService = new (dbContext);
+        }
+
+        public async Task<IActionResult> HomeView()
+        {
+
+            return View(await _serieService.GetSerieViewModel());
+        }
+
+
     }
 }

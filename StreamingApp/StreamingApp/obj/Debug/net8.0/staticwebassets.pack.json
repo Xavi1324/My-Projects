@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\HomeView.css"
     },
     {
+      "Id": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\SeriesView.css",
+      "PackagePath": "staticwebassets\\css\\SeriesView.css"
+    },
+    {
       "Id": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\Styles.css",
       "PackagePath": "staticwebassets\\css\\Styles.css"
     },

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "StreamingApp/1.0.0": {
         "dependencies": {
+          "Aplication": "1.0.0",
           "DataBase": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.12",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.12"
@@ -898,6 +899,17 @@
           }
         }
       },
+      "Aplication/1.0.0": {
+        "dependencies": {
+          "DataBase": "1.0.0"
+        },
+        "runtime": {
+          "Aplication.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "DataBase/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.12",
@@ -1450,6 +1462,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Aplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DataBase/1.0.0": {
       "type": "project",

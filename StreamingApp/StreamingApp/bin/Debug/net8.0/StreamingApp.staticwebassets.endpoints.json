@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 21:39:31 GMT"
+          "Value": "Tue, 04 Feb 2025 05:42:53 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 21:39:31 GMT"
+          "Value": "Tue, 04 Feb 2025 05:42:53 GMT"
         }
       ],
       "EndpointProperties": [
@@ -163,6 +163,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-y2e/FbYPWDbRl3ihS6DsNDA9Wpwtvm+iscbpYEnr9CY="
+        }
+      ]
+    },
+    {
+      "Route": "css/SeriesView.9m4oe986r5.css",
+      "AssetFile": "css/SeriesView.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 04:08:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9m4oe986r5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM="
+        },
+        {
+          "Name": "label",
+          "Value": "css/SeriesView.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/SeriesView.css",
+      "AssetFile": "css/SeriesView.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 04:08:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM="
         }
       ]
     },

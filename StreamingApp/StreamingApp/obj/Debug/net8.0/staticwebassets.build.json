@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j4l2vWxDHJs/SAOc17O2eVWpYiwbHh6UcZ+x7vhmH1s=",
+  "Hash": "VcPBykb4UhGMu7dijBbVigZytW8kNgPMgu8G/rrIahk=",
   "Source": "StreamingApp",
   "BasePath": "_content/StreamingApp",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\HomeView.css"
+    },
+    {
+      "Identity": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\SeriesView.css",
+      "SourceId": "StreamingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\",
+      "BasePath": "_content/StreamingApp",
+      "RelativePath": "css/SeriesView#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9m4oe986r5",
+      "Integrity": "Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SeriesView.css"
     },
     {
       "Identity": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\site.css",
@@ -1441,6 +1462,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-y2e/FbYPWDbRl3ihS6DsNDA9Wpwtvm+iscbpYEnr9CY="
+        }
+      ]
+    },
+    {
+      "Route": "css/SeriesView.9m4oe986r5.css",
+      "AssetFile": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\SeriesView.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 04:08:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9m4oe986r5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/SeriesView.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM="
+        }
+      ]
+    },
+    {
+      "Route": "css/SeriesView.css",
+      "AssetFile": "C:\\Proyectos\\My-Projects\\StreamingApp\\StreamingApp\\wwwroot\\css\\SeriesView.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 04:08:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yb9k9kGoYmZYjLWs7ESKceU0fGXikIYFmhyYo4Wr/MM="
         }
       ]
     },
@@ -6469,7 +6572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 21:39:31 GMT"
+          "Value": "Tue, 04 Feb 2025 05:42:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6506,7 +6609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 21:39:31 GMT"
+          "Value": "Tue, 04 Feb 2025 05:42:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6551,7 +6654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 21:39:31 GMT"
+          "Value": "Tue, 04 Feb 2025 05:42:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6596,7 +6699,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 21:39:31 GMT"
+          "Value": "Tue, 04 Feb 2025 05:42:53 GMT"
         },
         {
           "Name": "Cache-Control",
