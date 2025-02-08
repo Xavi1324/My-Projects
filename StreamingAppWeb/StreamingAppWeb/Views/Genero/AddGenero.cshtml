@@ -1,0 +1,23 @@
+﻿@model Aplication.VeiwModels.Genero.GeneroViewModel
+@{
+    ViewData["Title"] = "Agregar Genero";
+}
+
+<div class="container">
+    <h2>Agregar Género</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="alert alert-danger">@ViewBag.ErrorMessage</div> <!-- Muestra el mensaje de error si existe -->
+    }
+
+    <form asp-action="AddGenero" asp-controller="Genero" method="post">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre del Género</label>
+            <input type="text" id="nombre" name="NombreGenero" class="form-control" value="@Model?.NombreGenero" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Agregar Género</button>
+        <a asp-action="ListGenero" asp-controller="Genero" class="btn btn-secondary">Volver atras</a>
+    </form>
+</div>

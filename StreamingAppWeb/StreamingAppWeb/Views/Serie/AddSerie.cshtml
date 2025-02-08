@@ -1,0 +1,81 @@
+﻿@model Aplication.VeiwModels.Serie.SerieAddViewModel
+
+@{
+    ViewData["Title"] = "Agregar Serie";
+}
+
+
+<div class="container">
+    <h2>Agregar Serie</h2>
+    <form asp-action="AddSerie" method="POST">
+        <div class="mb-3">
+            <label for="Titulo" class="form-label">Título de la serie</label>
+            <input type="text" id="Titulo" name="Titulo" class="form-control" placeholder="Título de la serie" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="PortadaUrl" class="form-label">URL de imagen</label>
+            <input type="text" id="PortadaUrl" name="PortadaUrl" class="form-control" placeholder="URL de imagen" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="VideoUrl" class="form-label">URL del video</label>
+            <input type="text" id="VideoUrl" name="VideoUrl" class="form-control" placeholder="URL del video" required>
+        </div>
+        <div class="mb-3">
+            <label for="Productora" class="form-label">Productora</label>
+            <select id="Productora" name="IdProductora" class="form-control" required>
+                <option value="">Seleccione una productora</option>
+                @foreach (var productora in ViewBag.Productoras)
+                {
+                    <option value="@productora.IdProductora">@productora.NombreProductora</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="IdGenero" class="form-label">Género(s)</label>
+            <div class="dropdown" id="dropdown">
+                <button type="button" onclick="toggleDropdown()">Seleccionar Géneros</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    @foreach (var genero in ViewBag.Generos)
+                    {
+                        <label>
+                            <input type="checkbox" value="@genero.IdGenero" onclick="limitarSeleccion(this)"> @genero.NombreGenero
+                        </label>
+                    }
+                </div>
+            </div>
+            <input type="hidden" id="IdGenero" name="IdGenero" />
+            <input type="hidden" id="IdGeneroSec" name="IdGeneroSec" />
+        </div>
+
+        
+        <button type="submit" class="btn btn-primary">Agregar</button>
+        <a asp_action="ListSerie" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        function toggleDropdown() {
+            document.getElementById("dropdown").classList.toggle("active");
+        }
+
+        function limitarSeleccion(checkbox) {
+            let checkboxes = document.querySelectorAll('.dropdown-content input[type="checkbox"]');
+            let seleccionados = Array.from(checkboxes).filter(cb => cb.checked);
+
+            // Si se seleccionan más de 2 géneros, desmarcar el último
+            if (seleccionados.length > 2) {
+                checkbox.checked = false;
+                alert("Solo puedes seleccionar hasta 2 géneros.");
+                return;
+            }
+
+            // Guardar valores en los campos ocultos
+            document.getElementById("IdGenero").value = seleccionados.length > 0 ? seleccionados[0].value : "";
+            document.getElementById("IdGeneroSec").value = seleccionados.length > 1 ? seleccionados[1].value : "";
+        }
+    </script>
+}

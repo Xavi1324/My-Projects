@@ -1,0 +1,90 @@
+﻿body {
+    background-color: #212529; /* Fondo oscuro */
+    color: #f8f9fa; /* Texto claro */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+.series-title {
+    margin-top: 20px; /* Espaciado arriba del título */
+    font-size: 24px; /* Tamaño de fuente */
+}
+
+.series-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 60px;
+}
+
+.serie-card {
+    position: relative;
+    width: 200px; /* Ancho de la tarjeta */
+    height: 300px; /* Altura de la tarjeta */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la tarjeta */
+    overflow: hidden; /* Evita que los elementos se salgan de la tarjeta */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de la tarjeta */
+    transition: transform 0.2s; /* Transición suave al pasar el mouse */
+}
+
+    .serie-card:hover {
+        transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+    }
+
+.serie-image {
+    position: relative; /* Para posicionar elementos dentro */
+    height: 100%; /* Asegura que la imagen ocupe toda la tarjeta */
+}
+
+    .serie-image img {
+        width: 100%; /* Hace que la imagen llene el contenedor */
+        height: 100%; /* Hace que la imagen llene la altura */
+        object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+        transition: opacity 0.3s; /* Transición suave para la opacidad */
+    }
+
+.serie-card:hover .serie-image img {
+    opacity: 0.5; /* Opacidad de la imagen al pasar el mouse */
+}
+
+.serie-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Capa oscura más visible */
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén uno debajo del otro */
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding: 10px; /* Espaciado interno */
+}
+
+.serie-card:hover .serie-overlay {
+    opacity: 1;
+}
+
+.serie-title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px; /* Espaciado entre título y productora */
+}
+
+.serie-productora,
+.serie-generos {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 3px; /* Espaciado entre cada línea */
+}
+
+
+.alert {
+    color: #dc3545; /* Color de alerta */
+    font-weight: bold; /* Negrita */
+}

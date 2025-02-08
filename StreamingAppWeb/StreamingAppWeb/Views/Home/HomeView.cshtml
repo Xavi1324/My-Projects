@@ -1,0 +1,91 @@
+﻿@model List<Aplication.VeiwModels.Serie.SerieViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    
+    <form method="get" asp-action="HomeView" class="search-form">
+        <div class="input-group mb-4 search-bar">
+            <input type="text" class="form-control search-input" placeholder="Buscar por nombre..." name="searchTerm" value="@ViewData["SearchTerm"]">
+            <button class="btn btn-primary search-btn" type="submit">Buscar</button>
+        </div>
+    </form>
+
+    <div class="row">
+        <!-- Filtros y Búsqueda -->
+        <div class="col-md-3">
+            
+
+            <!-- Filtro por Productora -->
+            <form method="get" asp-action="HomeView" class="mb-3">
+                <div class="mb-3">
+                    <label for="Productora">Filtrar por Productora</label>
+                    <select id="Productora" name="productoraId" class="form-control">
+                        <option value="">Seleccione una productora</option>
+                        @foreach (var productora in ViewBag.Productoras)
+                        {
+                            <option value="@productora.IdProductora">@productora.NombreProductora</option>
+                        }
+                    </select>
+                </div>
+                <button class="btn btn-primary" type="submit">Filtrar</button>
+            </form>
+
+            <!-- Filtro por Género -->
+            <form method="get" asp-action="HomeView" class="mb-3">
+                <div class="mb-3">
+                    <label for="Genero">Filtrar por Género</label>
+                    <select id="Genero" name="generoId" class="form-control">
+                        <option value="">Seleccione un género</option>
+                        @foreach (var genero in ViewBag.Generos)
+                        {
+                            <option value="@genero.IdGenero">@genero.NombreGenero</option>
+                        }
+                    </select>
+                </div>
+                <button class="btn btn-primary" type="submit">Filtrar</button>
+            </form>
+
+            <!-- Ordenar por -->
+            <form method="get" asp-action="HomeView" class="mb-3">
+                <div class="mb-3">
+                    <label for="OrderBy">Ordenar por</label>
+                    <select id="OrderBy" name="orderBy" class="form-control">
+                        <option value="Nombre">Nombre</option>
+                        <option value="Genero">Género</option>
+                        <option value="Productora">Productora</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" type="submit">Ordenar</button>
+            </form>
+        </div>
+
+        <!-- Sección de Series a la derecha de los filtros -->
+        <div class="col-md-9">
+            <h2>Lista de Series</h2>
+            <div class="series-grid">
+                @if (Model == null || Model.Count == 0)
+                {
+                    <div class="alert alert-warning">No hay series disponibles</div>
+                }
+                else
+                {
+                    @foreach (var item in Model)
+                    {
+                        <div class="serie-card" onclick="window.location.href='/Serie/Detail/@item.IdSerie'">
+                            <div class="serie-image">
+                                <img src="@item.PortadaUrl" alt="@item.Titulo">
+                                <div class="serie-overlay">
+                                    <h3 class="serie-title">@item.Titulo</h3>
+                                    <p class="serie-productora">Productora: @item.NombreProductora</p>
+                                    <p class="serie-generos">Géneros: @string.Join(", ", item.Generos)</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

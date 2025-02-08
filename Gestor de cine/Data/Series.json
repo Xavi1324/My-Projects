@@ -46,5 +46,13 @@
     "imagenPortada": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_.jpg",
     "videoUrl": "https://youtu.be/xK7S9mrFWL4?si=qzM4JpkEq0mXAuav",
     "id": 6
+  },
+  {
+    "title": "Culpa Mia",
+    "genero": "Romance",
+    "imagenPortada": "https://m.media-amazon.com/images/M/MV5BNTI4ZWQ5YjYtMmYwMy00OWFmLWFmNDYtZGNlNWMxNTllZjc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "descripcion": "Noah tiene que dejar atrás su ciudad, su novio y sus amigos y mudarse a la mansión del nuevo marido rico de su madre. Allí conoce a Nick, su nuevo hermanastro. Pronto descubre que, detrás de la imagen de un hijo modelo, Nick esconde algo.",
+    "videoUrl": "https://youtu.be/1SqMjrE0J6E?si=lWyT6HL7gBA9DqkX",
+    "id": 7
   }
 ]

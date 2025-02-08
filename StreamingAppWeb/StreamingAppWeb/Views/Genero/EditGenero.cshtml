@@ -1,0 +1,19 @@
+﻿@model Aplication.VeiwModels.Genero.GeneroViewModel
+@{
+    ViewData["Title"] = "Editar Género";
+}
+<div class="container">
+    <h2>Editar Género</h2>
+    <form asp-action="EditGenero" asp-controller="Genero" method="post">
+        <input type="hidden" asp-for="IdGenero" />
+
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre del Género</label>
+            <input type="text" id="nombre" name="NombreGenero" class="form-control" value="@Model?.NombreGenero" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    </form>
+
+    <a asp-action="ListGenero" asp-controller="Genero" class="btn btn-secondary">Cancelar</a>
+</div>

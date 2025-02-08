@@ -1,0 +1,12 @@
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\bin\Debug\net8.0\DataBase.deps.json
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\bin\Debug\net8.0\DataBase.dll
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\bin\Debug\net8.0\DataBase.pdb
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\DataBase.csproj.AssemblyReference.cache
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\DataBase.AssemblyInfoInputs.cache
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\DataBase.AssemblyInfo.cs
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\DataBase.dll
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\refint\DataBase.dll
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\DataBase.pdb
+C:\Users\xavie\Desktop\StreamingApp\StreamingAppWeb\DataBase\obj\Debug\net8.0\ref\DataBase.dll

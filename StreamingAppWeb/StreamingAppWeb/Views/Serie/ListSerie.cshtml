@@ -1,0 +1,36 @@
+﻿@model List<Aplication.VeiwModels.Serie.SerieViewModel>
+
+@{
+    ViewData["Title"] = "Series";
+}
+
+<div class="container-fluid ">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Series</h2>
+        <a asp-controller="Serie" asp-action="AddSerie" class="btn btn-primary mb-3">Agregar Series</a>
+    </div>
+    <div class="series-grid">
+        @if (Model == null || Model.Count == 0)
+        {
+            <div class="alert alert-warning">No hay series disponibles</div>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="serie-card">
+                    <div class="serie-image">
+                        <img src="@item.PortadaUrl" alt="@item.Titulo">
+                        <div class="serie-overlay">
+                            <h3 class="serie-title">@item.Titulo</h3>
+                            <div class="serie-actions">
+                                <a asp-action="EditSerie" asp-route-id="@item.IdSerie" class="btn btn-warning btn-sm mx-1">Editar</a>
+                                <a asp-action="DeleteSerie" asp-controller="Serie" asp-route-id="@item.IdSerie" class="btn btn-danger btn-sm mx-1">Eliminar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

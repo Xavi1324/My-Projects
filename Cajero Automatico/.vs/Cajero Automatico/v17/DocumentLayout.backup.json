@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|c:\\proyectos\\my-projects\\cajero automatico\\cajero automatico\\cajero automatico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|solutionrelative:cajero automatico\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|c:\\proyectos\\my-projects\\cajero automatico\\cajero automatico\\cajero automatico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|solutionrelative:cajero automatico\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|c:\\proyectos\\my-projects\\cajero automatico\\cajero automatico\\cajero automatico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|solutionrelative:cajero automatico\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|c:\\proyectos\\my-projects\\cajero automatico\\cajero automatico\\cajero automatico\\views\\home\\retiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|solutionrelative:cajero automatico\\views\\home\\retiro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|c:\\proyectos\\my-projects\\cajero automatico\\cajero automatico\\cajero automatico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|solutionrelative:cajero automatico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|c:\\proyectos\\my-projects\\cajero automatico\\cajero automatico\\cajero automatico\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{05AA49C6-B0DA-43F9-9CD6-3556EAF8EF21}|Cajero Automatico\\Cajero Automatico.csproj|solutionrelative:cajero automatico\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 391,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Program.cs",
+              "RelativeDocumentMoniker": "Cajero Automatico\\Program.cs",
+              "ToolTip": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Program.cs",
+              "RelativeToolTip": "Cajero Automatico\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T05:01:16.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Style.css",
+              "DocumentMoniker": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\wwwroot\\css\\Style.css",
+              "RelativeDocumentMoniker": "Cajero Automatico\\wwwroot\\css\\Style.css",
+              "ToolTip": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\wwwroot\\css\\Style.css",
+              "RelativeToolTip": "Cajero Automatico\\wwwroot\\css\\Style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-21T04:22:43.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Retiro.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Views\\Home\\Retiro.cshtml",
+              "RelativeDocumentMoniker": "Cajero Automatico\\Views\\Home\\Retiro.cshtml",
+              "ToolTip": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Views\\Home\\Retiro.cshtml",
+              "RelativeToolTip": "Cajero Automatico\\Views\\Home\\Retiro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T03:00:44.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Cajero Automatico\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Cajero Automatico\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T02:51:26.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Cajero Automatico\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Cajero Automatico\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T01:19:49.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cajero Automatico\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\My-Projects\\Cajero Automatico\\Cajero Automatico\\Cajero Automatico\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Cajero Automatico\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T01:18:48.516Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

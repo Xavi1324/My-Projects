@@ -1,0 +1,18 @@
+﻿@model Aplication.VeiwModels.Productora.ProductoraViewModel
+
+@{
+    ViewData["Title"] = "Eliminar Productora";
+}
+
+<div class="container">
+    <h2>Eliminar Productora</h2>
+    <p>¿Estás seguro de que deseas eliminar la productora <strong>@Model.NombreProductora</strong>?</p>
+
+    <form asp-action="DeleteProductora" asp-controller="Productora" method="post">
+
+        <input type="hidden" asp-for="IdProductora" />
+
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="ListProductora" asp-controller="Productora" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

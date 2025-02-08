@@ -1,0 +1,23 @@
+﻿@model Aplication.VeiwModels.Productora.ProductoraViewModel
+@{
+    ViewData["Title"] = "Agregar Productora";
+}
+
+<div class="container">
+    <h2>Agregar Productora</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="alert alert-danger">@ViewBag.ErrorMessage</div> <!-- Muestra el mensaje de error si existe -->
+    }
+
+    <form asp-action="AddProductora" asp-controller="Productora" method="post">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre del Productora</label>
+            <input type="text" id="nombre" name="NombreProductora" class="form-control" value="@Model?.NombreProductora" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Agregar Productora</button>
+        <a asp-action="ListProductora" asp-controller="Productora" class="btn btn-secondary">Volver atras</a>
+    </form>
+</div>

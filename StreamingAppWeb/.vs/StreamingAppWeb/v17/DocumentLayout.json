@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\views\\home\\homeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\views\\home\\homeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\wwwroot\\css\\homeview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\wwwroot\\css\\homeview.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\controllers\\seriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\controllers\\seriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\views\\serie\\addserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\views\\serie\\addserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\views\\serie\\deleteserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\views\\serie\\deleteserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\aplication\\services\\serieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|solutionrelative:aplication\\services\\serieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\views\\serie\\listserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\views\\serie\\listserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\streamingappweb\\views\\serie\\editserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A93D0A17-4A59-4B87-BE96-5D9A902EA3CC}|StreamingAppWeb\\StreamingAppWeb.csproj|solutionrelative:streamingappweb\\views\\serie\\editserie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\aplication\\veiwmodels\\serie\\serieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|solutionrelative:aplication\\veiwmodels\\serie\\serieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\aplication\\repository\\serierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|solutionrelative:aplication\\repository\\serierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\aplication\\veiwmodels\\serie\\serieeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|solutionrelative:aplication\\veiwmodels\\serie\\serieeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|c:\\users\\xavie\\desktop\\streamingapp\\streamingappweb\\aplication\\repository\\productorarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19559B22-1ED5-4807-A941-D2E60A320FF9}|Aplication\\Aplication.csproj|solutionrelative:aplication\\repository\\productorarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 289,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeView.css",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\wwwroot\\css\\HomeView.css",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\wwwroot\\css\\HomeView.css",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\wwwroot\\css\\HomeView.css",
+              "RelativeToolTip": "StreamingAppWeb\\wwwroot\\css\\HomeView.css",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-08T03:34:01.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StreamingAppWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T03:23:42.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeView.cshtml",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Home\\HomeView.cshtml",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\Views\\Home\\HomeView.cshtml",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Home\\HomeView.cshtml",
+              "RelativeToolTip": "StreamingAppWeb\\Views\\Home\\HomeView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T03:23:18.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteSerie.cshtml",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\DeleteSerie.cshtml",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\Views\\Serie\\DeleteSerie.cshtml",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\DeleteSerie.cshtml",
+              "RelativeToolTip": "StreamingAppWeb\\Views\\Serie\\DeleteSerie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T02:47:49.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddSerie.cshtml",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\AddSerie.cshtml",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\Views\\Serie\\AddSerie.cshtml",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\AddSerie.cshtml",
+              "RelativeToolTip": "StreamingAppWeb\\Views\\Serie\\AddSerie.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T02:29:49.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SerieEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\VeiwModels\\Serie\\SerieEditViewModel.cs",
+              "RelativeDocumentMoniker": "Aplication\\VeiwModels\\Serie\\SerieEditViewModel.cs",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\VeiwModels\\Serie\\SerieEditViewModel.cs",
+              "RelativeToolTip": "Aplication\\VeiwModels\\Serie\\SerieEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T02:17:47.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListSerie.cshtml",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\ListSerie.cshtml",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\Views\\Serie\\ListSerie.cshtml",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\ListSerie.cshtml",
+              "RelativeToolTip": "StreamingAppWeb\\Views\\Serie\\ListSerie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T01:29:24.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditSerie.cshtml",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\EditSerie.cshtml",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\Views\\Serie\\EditSerie.cshtml",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Views\\Serie\\EditSerie.cshtml",
+              "RelativeToolTip": "StreamingAppWeb\\Views\\Serie\\EditSerie.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T01:22:34.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SerieService.cs",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\Services\\SerieService.cs",
+              "RelativeDocumentMoniker": "Aplication\\Services\\SerieService.cs",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\Services\\SerieService.cs",
+              "RelativeToolTip": "Aplication\\Services\\SerieService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T01:10:07.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductoraRepository.cs",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\Repository\\ProductoraRepository.cs",
+              "RelativeDocumentMoniker": "Aplication\\Repository\\ProductoraRepository.cs",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\Repository\\ProductoraRepository.cs",
+              "RelativeToolTip": "Aplication\\Repository\\ProductoraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T01:10:31.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SerieController.cs",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Controllers\\SerieController.cs",
+              "RelativeDocumentMoniker": "StreamingAppWeb\\Controllers\\SerieController.cs",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\StreamingAppWeb\\Controllers\\SerieController.cs",
+              "RelativeToolTip": "StreamingAppWeb\\Controllers\\SerieController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T01:09:38.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SerieViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\VeiwModels\\Serie\\SerieViewModel.cs",
+              "RelativeDocumentMoniker": "Aplication\\VeiwModels\\Serie\\SerieViewModel.cs",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\VeiwModels\\Serie\\SerieViewModel.cs",
+              "RelativeToolTip": "Aplication\\VeiwModels\\Serie\\SerieViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T03:17:27.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SerieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\Repository\\SerieRepository.cs",
+              "RelativeDocumentMoniker": "Aplication\\Repository\\SerieRepository.cs",
+              "ToolTip": "C:\\Users\\xavie\\Desktop\\StreamingApp\\StreamingAppWeb\\Aplication\\Repository\\SerieRepository.cs",
+              "RelativeToolTip": "Aplication\\Repository\\SerieRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T03:12:01.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Aplication.VeiwModels.Productora.ProductoraViewModel>
+
+@{
+    ViewData["Title"] = "Productoras";
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Productoras</h2>
+        <a asp-action="AddProductora" class="btn btn-primary mb-3">Agregar Productora</a>
+    </div>
+
+    <div class="tipos-container">
+        @if (Model == null || !Model.Any())
+        {
+            <div class="alert alert-warning">No hay productoras disponibles</div>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <div class="d-flex justify-content-between align-items-center tipos-list p-3 m-2 bg-white text-black rounded-2 shadow-sm">
+                    <p class="ms-2 mb-0">@item.NombreProductora</p>
+                    <div>
+                        <a asp-action="EditProductora" asp-route-id="@item.IdProductora" class="btn btn-warning btn-sm mx-1">Editar</a>
+                        <a asp-action="DeleteProductora" asp-controller="Productora" asp-route-id="@item.IdProductora" class="btn btn-danger btn-sm mx-1">Eliminar</a>
+
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

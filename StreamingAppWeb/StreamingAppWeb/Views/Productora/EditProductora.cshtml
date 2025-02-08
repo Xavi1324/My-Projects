@@ -1,0 +1,19 @@
+﻿@model Aplication.VeiwModels.Productora.ProductoraViewModel
+@{
+    ViewData["Title"] = "Editar Productora";
+}
+<div class="container">
+    <h2>Editar Productora</h2>
+    <form asp-action="EditProductora" asp-controller="Productora" method="post">
+        <input type="hidden" asp-for="IdProductora" />
+
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre del Productora</label>
+            <input type="text" id="nombre" name="NombreProductora" class="form-control" value="@Model?.NombreProductora" required />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    </form>
+
+    <a asp-action="ListProductora" asp-controller="Productora" class="btn btn-secondary">Cancelar</a>
+</div>
